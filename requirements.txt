@@ -1,0 +1,14 @@
+pip
+attrs
+distro
+wheel
+PySocks
+pillow
+filelock
+selenium
+webdriver-manager
+bs4
+beautifulsoup4
+openai
+tiktoken
+pandas
