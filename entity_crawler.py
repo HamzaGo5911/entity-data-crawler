@@ -200,16 +200,3 @@ class EntityDataCrawler:
 
         df.to_csv(filename, index=False)
         print(f"Data saved to {filename}")
-
-
-# Sample URLs with dynamic content and pagination
-urls_to_crawl = [
-    "https://lslbc.louisiana.gov/violations/",            # New URL 1
-    "https://embassyofalgeria.uk/the-ambassador/",        # New URL 2
-    "https://www.parlament.mt/en/14th-leg/political-groups/",  # New URL 3
-    "https://members.parliament.uk/members/commons",      # New URL 4
-    "https://docs.fcdo.gov.uk/docs/UK-Sanctions-List.html",  # New URL 5
-    "https://www.worldbank.org/en/projects-operations/procurement/debarred-firms",  # New URL 6
-    "https://www.smcl.bt/#/",                             # New URL 7
-    "https://www.smv.gob.pe/ServicioSancionesImpuestas/frm_SancionesEmpresas?data=6D9FF7643381613ADE8EEBB66B8E0CF2C6CC64BCC4"  # New URL 8
-]
